@@ -1,0 +1,10 @@
+.list{
+    width:1280px;
+    margin: 0  auto;
+}
+.users-name{
+  position: relative;
+  left: 10%;
+  top:50px;
+  font-size:3rem;
+}

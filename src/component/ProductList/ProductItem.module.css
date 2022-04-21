@@ -1,0 +1,16 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    margin:5rem 1.2rem;
+    border: 1px solid rgb(230, 227, 227);
+    box-shadow: 2px 2px 2px 2px rgba(181, 181, 181, 0.2);
+}
+.pic img{
+        width: 40rem;
+}
+@media(min-width: 900px){
+    .pic img{
+  width:20rem;
+}
+}
+

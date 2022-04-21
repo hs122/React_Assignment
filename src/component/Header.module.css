@@ -1,0 +1,47 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid rgb(202, 200, 200);
+    border-top: none;
+    box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.5);
+   
+   padding:1.2rem 0;
+}
+
+.logo img{
+    position: relative;
+     left:60%;
+     width:20%;
+  
+  
+}
+.header-items {
+    display:flex;
+    align-items:center;
+    list-style: none;
+   margin-left: 40rem;
+
+}
+.header-item{
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin:0 0.5rem;
+   cursor: pointer;
+   
+}
+.header-item img{
+    width:30%;
+}
+.header-itemss img{
+    width:30%;
+}
+
+@media (min-width: 900px) {
+  .logo img{
+     position: relative;
+     left:0%;
+     width:15%;
+   margin-top:-1.2rem;
+  }
+  }
